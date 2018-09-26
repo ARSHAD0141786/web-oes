@@ -1,4 +1,4 @@
-var host = "https://arshad-oes.herokuapp.com:8080";
+var host = "https://arshad-oes.herokuapp.com";
 //var host = "http://localhost:8080";
 // var host = "http://10.10.16.26:8080";
 fetchCourses();
