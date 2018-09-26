@@ -59,9 +59,7 @@ function createIndexTemplate(source){
 }
 
 app.get('/', function (req, res) {
-	console.log(`This is my response arshad`);
-	//res.send(`<html><head></head><body><p>Done</p></body></html>`);
-  res.send(createIndexTemplate('/ui/main.js'));
+	res.send(createIndexTemplate('/ui/main.js'));
 });
 
 app.get('/test-this-app',function(req,res){
