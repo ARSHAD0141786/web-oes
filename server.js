@@ -10,10 +10,10 @@ var session = require('express-session');
 var config = {
     connectionLimit: 50,
 	host: 'sql12.freemysqlhosting.net',
-	user: 'sql12258665',
-	password: 'KDw6sQYTlI',
+	user: 'sql12262806',
+	password: 'qkF6s392DC',
 	port: '3306',
-	database: 'sql12258665',
+	database: 'sql12262806',
 };
 
 var app = express();
